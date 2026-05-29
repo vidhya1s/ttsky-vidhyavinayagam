@@ -42,7 +42,7 @@ jobs:
           make
 
           echo "Files generated:"
-          ls =lah
+          ls -lah
           test -f results.xml
           ! grep failure results.xml
 
