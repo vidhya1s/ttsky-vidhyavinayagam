@@ -1,19 +1,11 @@
-project:
-  title: "4-bit ALU"
-  author: "Your Name"
-  description: "Simple 4-bit ALU using Tiny Tapeout"
-  language: "Verilog"
-  clock_hz: 40000000
-
-pinout:
-  ui[0]: "a0"
-  ui[1]: "a1"
-  ui[2]: "a2"
-  ui[3]: "a3"
-  ui[4]: "sel0"
-  ui[5]: "sel1"
-
-  uo[0]: "y0"
-  uo[1]: "y1"
-  uo[2]: "y2"
-  uo[3]: "y3"
+{
+  "DESIGN_NAME": "tt_um_example",
+  "VERILOG_FILES": "dir::src/tt_um_example.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 25,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 161.00 111.52",
+  "PL_TARGET_DENSITY": 0.75,
+  "MAX_FANOUT_CONSTRAINT": 10,
+  "CLOCK_TREE_SYNTH": false
+}
