@@ -41,7 +41,9 @@ jobs:
           make clean
           make
 
-          # Fail workflow if any test failed
+          echo "Files generated:"
+          ls =lah
+          test -f results.xml
           ! grep failure results.xml
 
       # Show test summary in GitHub Actions
